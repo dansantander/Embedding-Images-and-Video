@@ -1,0 +1,39 @@
+html {
+    font-size: 10px;
+  }
+  
+
+header {
+    position: fixed;/*It always stays in the same place even when the page scrolls*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 5.6rem;
+    background-color: #282828fa;
+    z-index: 69;
+  }
+
+  .menu-btn {
+
+    margin-right: 2.4rem;
+    margin: 0 2.4rem;
+  }
+
+  .home-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .search-bar {
+    width: 700px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
