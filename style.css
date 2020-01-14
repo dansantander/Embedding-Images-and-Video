@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     height: 5.6rem;
-    background-color: #282828fa;
+    background-color: #fffffffa;
     z-index: 69;
   }
 
@@ -37,3 +37,9 @@ header {
     display: flex;
     align-items: center;
   }
+
+  .video{
+  border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+    }
+
+  
