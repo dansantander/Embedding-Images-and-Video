@@ -49,6 +49,8 @@ header {
     font-weight: 500;
   }
   
+/*Searchbar div  */
+
   .search-bar {
     width: 800px;
     max-width: 800px;
@@ -58,6 +60,7 @@ header {
     }
 
 
+      /*Searchbar input  */
   .search-input{
     width: 100%;
     height: 10px;
@@ -68,11 +71,32 @@ header {
     border: 1px solid #242424;
   }
 
+  /*Autoplay switch  */
+  .switch {
+    position: relative;/*look up for this*/
+    display: flex;
+    align-items: center;
+    width: 38px;
+    height: 15px;
+    border-radius: 29px;
+    border: none;
+    background-color: rgb(173, 173, 173);
+  }
 
 
-  .video-division{
-  border-bottom: 1px solid rgba(170, 170, 170, 0.2);
-    }
+ /*Autoplay circular button  */
+  .switch::before {
+    content: '';
+    position: absolute; /*look up for this*/
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;/*circular radius outside the element*/
+    background-color: #3ea6ff;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);/* 0(horizontal distance) 0(vertical distance) 5px(blur) 1px (blur scope)*/
+  }
+
+
 
 
     /*Sidebar Recommendations */
@@ -99,11 +123,15 @@ header {
 
 
 
-  
+  /* Options below the video*/
 
       .options{
         display: grid;
         grid-template-columns: 2fr 1fr;
+      }
+      .info{
+        border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+
       }
 
       .title{
@@ -122,23 +150,4 @@ header {
       .material-icons{
         color: #9e9a9a;
       }
-      .thumbnail-img-overlay {
-        visibility: hidden;
-        width: 100%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        top: 0;
-      }
-      .thumbnail-img-overlay .btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 28px;
-        height: 28px;
-        margin: 0.4rem 0.4rem 0 0;
-        border-radius: 2px;
-        background-color: rgba(0, 0, 0, 0.9);
-      }
-      
+
