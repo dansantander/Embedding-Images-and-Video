@@ -96,3 +96,13 @@ header {
         width: 95%;
         height: 95%;
       }
+
+      .options{
+        display: flex;
+        position: ;
+      }
+
+      .options{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
