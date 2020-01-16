@@ -196,3 +196,26 @@ header {
           padding: 0px 8px 0px 5.5px;
           border-color: transparent;
       }
+
+      .thumbnail {
+        position: relative;
+        display: flex;
+        width: 100%;
+        /*padding-top: 1rem;*/
+        text-decoration: none;
+        
+      }
+      .thumbnail-title{
+        padding-left: 1rem;
+      }
+      
+      /*Thumbnail channel name*/
+      .thumbnail-channel-name{
+        color: rgb(118, 118, 118);
+        margin-bottom: 0px;
+        font-size: 13px;
+        text-underline-offset: 0;
+        padding-left: 1rem;
+
+      }
+
