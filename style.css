@@ -218,10 +218,10 @@ header {
           text-decoration: none;
           cursor: pointer;
           color: rgb(254, 254, 254);
-          max-width: 50%;
+          width: 50%;
           height: 40px;
           background-color: rgb(255, 0, 0);
-      
+          
       }
 
 
@@ -236,5 +236,17 @@ header {
         display: grid;
         grid-template-rows: repeat(3,1fr);
         grid-row-gap: 2em;
+      }
+
+      .cardBodyBorderColor{
+        border : 2px solid #007bff!important;
+      }
+
+      .textCardHeard>div{
+        color: white;
+      }
+
+      .text-card-body{
+        color: blue;
       }
 
