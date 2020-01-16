@@ -24,7 +24,7 @@ header {
   
   .container {
     min-height: 100vh;
-    background-color: #ecececfa;
+    background-color: #f7f7f7fa;
   }
   
 
@@ -145,9 +145,54 @@ header {
 
       .comment {
         align-items: initial;
+        font-size: 1.5rem;
       }
 
       .material-icons{
         color: #9e9a9a;
       }
 
+      .channel-info{
+        display:grid;
+        border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+        
+      }
+
+      .subscribe-btn i{
+        color: #ffffff;
+      }
+
+
+      .video-description p{
+        font-size: 1.5rem;
+      }
+/* Subscribed Button*/
+      .subscribedYouTubes{
+        font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+          font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+          display: inline-block;
+          font-weight: 500;
+          font-size: 16px;
+          text-decoration: none;
+          white-space: nowrap;
+          word-wrap: normal;
+          line-height: normal;
+          vertical-align: middle;
+          cursor: pointer;
+
+          border-top-left-radius: 2px 2px;
+          border-top-right-radius: 2px 2px;
+          border-bottom-right-radius: 2px 2px;
+          border-bottom-left-radius: 2px 2px;
+  
+          color: rgb(254, 254, 254);
+          max-width: 100%;
+          height: 24px;
+          background-color: rgb(255, 0, 0);
+          outline: invert none 0px;
+          border-width: 1px;
+          border-style: solid;
+          margin: 0px;
+          padding: 0px 8px 0px 5.5px;
+          border-color: transparent;
+      }
