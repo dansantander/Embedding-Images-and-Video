@@ -4,17 +4,44 @@ html {
   }
   
 
-header {
+.top-header {
     position: fixed;/*It always stays in the same place even when the page scrolls*/
     left: 0;
     top: 0;
     width: 100%;
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
     height: 5.6rem;
     background-color: #fffffffa; /*"fa" stands for alpha channel (opacity) */
     z-index: 69;/*position in z axes to give depth */
   }
+
+.bottom-header{
+
+  position: fixed;/*It always stays in the same place even when the page scrolls*/
+    left: 0;
+    top: 55px;
+    width: 100%;
+    display: grid;
+    font-size: 1.5rem;
+    height: 5.6rem;
+    z-index: 69;/*position in z axes to give depth */
+
+}
+
+.choose-language{
+  display:grid;
+  grid-template-rows: ;
+  background-color: rgb(22, 122, 198);
+  color: #ffffff;
+}
+
+.english-language{
+  background-color: #fffffffa;
+}
+
+
+
  .btn {
    font-size: 13px;
    background: none;
@@ -31,7 +58,7 @@ header {
   .page {
     display: grid;
     grid-template: auto 1fr / 2fr 1fr;
-    padding: 8rem;
+    padding: 16rem 8rem 8rem 8rem;
   }
   
 
@@ -238,6 +265,9 @@ header {
         grid-row-gap: 2em;
       }
 
+
+      /*
+
       .cardBodyBorderColor{
         border : 2px solid #007bff!important;
       }
@@ -250,3 +280,4 @@ header {
         color: blue;
       }
 
+*/
