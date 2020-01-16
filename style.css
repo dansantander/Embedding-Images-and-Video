@@ -118,7 +118,7 @@ html {
     width: 20px;
     height: 20px;
     border-radius: 50%;/*circular radius outside the element*/
-    background-color: #3ea6ff;
+    background-color: #a8b0b8;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);/* 0(horizontal distance) 0(vertical distance) 5px(blur) 1px (blur scope)*/
   }
 
@@ -265,18 +265,94 @@ html {
       }
 
 
-      /*
-
-      .cardBodyBorderColor{
-        border : 2px solid #007bff!important;
+      .up-next {
+        margin-bottom: 0.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+      }
+      
+      .autoplay {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0.5rem;
+      }
+      .autoplay > span {
+        flex-grow: 1;
+        font-size: 1.6rem;
+      }
+      
+      .autoplay span ~ span {
+        padding-right: 1rem;
+        flex-grow: 0;
+        color: #aaa;
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+      
+      .switch {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 38px;
+        height: 15px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(22, 122, 198);
       }
 
-      .textCardHeard>div{
-        color: white;
+      .showMoreStyle{
+
+        color: rgb(118, 118, 118);
+      
+        font-size: 13px;
+      
+        text-align: center;
+      
+      }
+      
+      /*Footer Section*/
+      .footer{
+
+        margin-top:12em;
+      
+      }
+      
+      
+      .youtubeImageFooter{
+
+        height: 30px;
+      
       }
 
-      .text-card-body{
-        color: blue;
-      }
+      .horizontalLine{
 
-*/
+        width:90%;
+      
+      }
+      
+      .horizontalLineFooter{
+      
+        width:98%;
+      
+      }
+      
+      .cardPanel{
+      
+        width:99%;
+      
+        margin:0px 0px 10px;
+      
+      }
+      
+      .cardPanelFooter{
+      
+        width:100%;
+      
+      }
+      .LastinkFooterMarginLeft{
+
+        margin-left: 15px !important;
+      
+      }
+      
