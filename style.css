@@ -226,10 +226,10 @@ html {
 
 
 /* Subscribed Button*/
-      .subscribe-btn {
+     /* .subscribe-btn {
         display:grid;
     
-      }
+      }*/
 
       .subscribe-btn i{
 
@@ -244,7 +244,7 @@ html {
           text-decoration: none;
           cursor: pointer;
           color: rgb(254, 254, 254);
-          width: 50%;
+          min-width: 50%;
           height: 40px;
           background-color: rgb(255, 0, 0);
           
