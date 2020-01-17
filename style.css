@@ -58,6 +58,7 @@ html {
     display: grid;
     grid-template: auto 1fr / 2fr 1fr;
     padding: 16rem 8rem 8rem 8rem;
+    grid-gap: 2rem;
   }
   
 
@@ -97,6 +98,22 @@ html {
     border: 1px solid #242424;
   }
 
+/* Player */
+  .player { /*imaginary box outside actual window player*/
+    position: relative;/*check this out later*/
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+
+  .player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 98%;
+  }
+
   /*Autoplay switch  */
   .switch {
     position: relative;/*look up for this*/
@@ -132,28 +149,19 @@ html {
         background-color: #fffffffa;
       }
   
-      .player { /*imaginary box outside actual window player*/
-        position: relative;/*check this out later*/
-        padding-bottom: 56.25%;
-        padding-top: 25px;
-        height: 0;
-      }
-
-      .player iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 95%;
-        height: 95%;
-      }
+    
 
       .thumbnail {
         position: relative;
         display: flex;
         width: 100%;
-        /*padding-top: 1rem;*/
+        padding-top: 1rem;
         text-decoration: none;
         
+      }
+      .duration{
+        z-index: 69;
+
       }
       .thumbnail-title{
         padding-left: 1rem;
@@ -170,10 +178,6 @@ html {
       }
 
 
-
-
-
-
   /* Options below the video*/
 
       .options{
@@ -182,7 +186,6 @@ html {
       }
       .info{
         border-bottom: 1px solid rgba(170, 170, 170, 0.2);
-
       }
 
       .title{
@@ -213,7 +216,7 @@ html {
 
       .video-description {
          grid-column: 1/2; /*it starts in column 1 and ends where column 2 starts*/
-    
+         text-align: justify;
       }
 
       .video-description p{
@@ -302,57 +305,53 @@ html {
       }
 
       .showMoreStyle{
-
         color: rgb(118, 118, 118);
-      
         font-size: 13px;
-      
         text-align: center;
-      
       }
       
       /*Footer Section*/
       .footer{
-
         margin-top:12em;
-      
       }
       
       
       .youtubeImageFooter{
-
         height: 30px;
-      
       }
 
       .horizontalLine{
-
         width:90%;
-      
       }
       
       .horizontalLineFooter{
-      
         width:98%;
-      
       }
       
       .cardPanel{
-      
         width:99%;
-      
         margin:0px 0px 10px;
-      
       }
       
       .cardPanelFooter{
-      
         width:100%;
-      
       }
       .LastinkFooterMarginLeft{
-
         margin-left: 15px !important;
-      
       }
-      
+
+      .duration {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: -2.7rem;
+        margin-left: 20rem;
+      }
+
+      .duration span {
+        padding: 0.1rem 0.4rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border-radius: 2px;
+        background-color: #000;
+        color: #ffffff
+      }
