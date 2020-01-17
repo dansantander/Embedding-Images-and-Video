@@ -18,12 +18,12 @@ html {
 
 .bottom-header{
 
-  position: fixed;/*It always stays in the same place even when the page scrolls*/
+    position: fixed;/*It always stays in the same place even when the page scrolls*/
     left: 0;
     top: 55px;
     width: 100%;
     display: grid;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     height: 5.6rem;
     z-index: 69;/*position in z axes to give depth */
 
@@ -33,13 +33,14 @@ html {
   display:grid;
   background-color: rgb(22, 122, 198);
   color: #ffffff;
+  padding-top: 1rem;
+  padding-left:1rem;
 }
 
 .english-language{
   background-color: #fffffffa;
+  padding-left:1rem;
 }
-
-
 
  .btn {
    font-size: 13px;
