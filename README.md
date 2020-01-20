@@ -2,12 +2,12 @@
 
 This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-Built With
+#Built With
 - HTML
 - CSS
 
 
-Authors
+# Authors
 👤 Daniel Santander
 
 Github: @dansantander
@@ -21,17 +21,17 @@ Github: @angelesh1995
 Twitter: @Maria_AngelesxD
 Linkedin: linkedin
 
-🤝 Contributing
+# Contributing
 Contributions, issues and feature requests are welcome!
 Feel free to check the issues page.
 
-Show your support
+# Show your support
 - Give a ⭐️ if you like this project!
 
 
-Acknowledgments
+# Acknowledgments
 Thanks to anyone whose code was used for inspiration
 
 
-📝 License
+# License
 This project is MIT licensed.
