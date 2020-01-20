@@ -1,27 +1,37 @@
 # Embedding-Images-and-Video
-First Microverse Collaborative Project (HTML&amp;CSS)
 
-This is our firts Collaborative Project. Hope everything turns out ok with this README file. :)
+This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-Built With
+# Built With
 - HTML
 - CSS
 
 
-Authors
+# Authors
 👤 Daniel Santander
 
-Github: @dansantander
-Twitter: @pordios_cero
-Linkedin: https://www.linkedin.com/in/daniel-santander-118ab5145/
+- Github: @dansantander
+- Twitter: @pordios_cero
+- Linkedin: linkedin
 
 
 👤 María de los Ángeles Hinojosa Pretell
 
-Github: @angelesh1995
-Twitter: @Maria_AngelesxD
-Linkedin: https://www.linkedin.com/in/maria-de-los-angeles-hinojosa-pretell-ab761019a/
+- Github: @angelesh1995
+- Twitter: @Maria_AngelesxD
+- Linkedin: linkedin
 
+# Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to check the issues page.
 
-Show your support
+# Show your support
 - Give a ⭐️ if you like this project!
+
+
+# Acknowledgments
+Thanks to anyone whose code was used for inspiration
+
+
+# License
+This project is MIT licensed.

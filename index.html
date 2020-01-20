@@ -1,13 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>YouTube Page</title>
 </head>
+
 <body>
-    
+    <div class=container>
+        <header>
+            <div class="top-header">
+
+
+                <button class="btn menu-btn">
+                    <i class="material-icons">dehaze</i>
+                </button>
+                <button class="btn home-btn">
+
+                    <img class="youtubeImageFooter"
+                        src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="youtube image">
+
+                </button>
+
+                <div class="search-bar">
+                    <input class="search-input" type="text" placeholder="Search" />
+                    <button class="btn search-btn">
+                        <img src="images/magnify.svg" alt="magnify" />
+                    </button>
+                </div>
+
+                <div class="user-options">
+                    <button class="btn first-button">
+
+                      <img src="images/video-plus.svg" alt="add video" />
+                    </button>
+                    <button class="btn first-button">
+
+                      <img src="images/apps.svg" alt="apps" />
+                    </button>
+                    <button class="btn first-button">
+
+                        <img src="images/dots-vertical.svg" alt="options" />
+
+                    </button>
+                    <button class="btn sign-btn">
+                        <img src="images/account-circle.svg" alt="no user avatar" />
+                        <span>SIGN IN</span>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="bottom-header">
+                <div class="choose-language">
+                    <span class="icon-stack icon-4x">
+                        <i class="fa fa-user"></i><i class="fa fa-question-circle" aria-hidden="true"></i> Choose your
+                        language.
+                    </span>
+                    <div class="col-md-1"><i class="fa fa-times pull-right clickable" data-effect="fadeOut"></i></div>
+                </div>
+                <div class="english-language">
+                    <div class="row">
+                        <div>You're viewing YouTube in <b>English (US)</b>. You can <a href="#">change this preference
+                                below</a>.
+                        </div>
+                        <div><a href="#">Learn more</a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="page">
+            <main>
+
+                <div class="player">
+
+                    <iframe src="https://www.youtube.com/embed/Iby0vDOBUPk"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+
+                <div class="info">
+                    <h1 class="title">Top Things To Do In Cancun, Mexico</h1>
+                    <div class="video-primary-info">
+
+
+                        <div class="options">
+                            <p class="views-date">36,752 views • Aug 27, 2019</p>
+
+                            <div class="percents">
+                                <button class="btn like-btn">
+
+                                    <i class="material-icons">thumb_up</i>
+                                    <span>143</span>
+                                </button>
+                                <button class="btn dislike-btn">
+                                    <i class="material-icons">thumb_down</i>
+
+                                    <span>32</span>
+                                </button>
+
+                                <button class="btn share-btn">
+                                    <img src="images/share.svg" alt="share.svg">
+
+                                    <span>SHARE</span>
+                                </button>
+                                <button class="btn save-btn">
+
+                                    <i class="material-icons">playlist_add</i>
+                                    <span>SAVE</span>
+                                </button>
+
+                                <button class="btn more-options-btn">
+
+                                    <i class="material-icons">more_horiz</i>
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="channel-info">
+
+                    <div class="logo">
+                        <img id="img" alt="" width="48"
+                            src="https://yt3.ggpht.com/a/AGF-l7_NtjJpiCY4Yll7CY9icDA-SslEWTR1fy2dLA=s48-c-k-c0xffffffff-no-rj-mo">
+                    </div>
+
+                    <div class="account-user-info">
+                        <h1>Must Do Travels</h1>
+                        <p>8.65K subscribers</p>
+
+                        <div class="video-description">
+                            <p>
+                                Hey Must Do Travels Tribe! Today we are in Cancun, a Mexican city bordering the
+                                Caribbean
+                                Sea, which is
+                                known for its beaches, numerous resorts and nightlife. Let’s go check it out!
+
+                                Tulum Ruins 1:03
+
+                                Although Cancun is known for its beach resorts - the Tulum Ruins has a history that
+                                dates
+                                back over 700
+                                years in the Mayan post-classic period. Visiting the Tulum ruins is a great day trip
+                                full of
+                                history and
+                                beautiful views!
+
+                                Playa Del Carmen 1:45
+
+                                Playa del Carmen is a coastal resort town along the Riviera Maya strip. Found in the
+                                state
+                                of Quintana
+                                Roo, it’s known for its beautiful palm-lined beaches and coral reefs.
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="subscribe-btn">
+                        <button class="subscribedYouTubes"><i class="fa fa-play"></i> SUBSCRIBED</button>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="comment-section">
+
+                    <div class="comment">
+
+                        <div class="user-avatar">
+
+                            <img class="style-scope yt-img-shadow" alt="Indian in Germany" height="40" width="40"
+                                src="https://yt3.ggpht.com/a/AGF-l79pznl6nu34FOyNxEL1-3AMC_LvgnzwzHLA_g=s48-c-k-c0xffffffff-no-rj-mo">
+
+                        </div>
+                        <div class="comment-info">
+
+                            <div class="comment-user">
+                                <span class="user-name" style="font-weight: bold;">
+                                    Guillherme Recordon
+                                </span>
+                                <span class="comment-time">1 day ago</span>
+                            </div>
+
+                            <div class="comment-text">
+                                Mexico has such beautiful places! <br />
+                                <br />
+                            </div>
+
+                            <div class="comment-options">
+
+                                <button class="btn cm-like-btn">
+
+                                    <i class="material-icons">thumb_up</i>
+                                    <span>66</span>
+                                </button>
+                                <button class="btn cm-dislike-btn">
+                                    <i class="material-icons">thumb_down</i>
+                                    <span>5</span>
+                                </button>
+                                <button class="btn cm-reply-btn">
+                                    <span>REPLY</span>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="comment">
+
+                        <div class="user-avatar">
+
+                            <img class="style-scope yt-img-shadow" alt="Aaron H" height="40" width="40"
+                                src="https://yt3.ggpht.com/a/AGF-l79bxUkJiBRGFJ3o3fqlrjC7BseRVqEf4d68Ig=s48-c-k-c0xffffffff-no-rj-mo">
+                        </div>
+
+                        <div class="comment-info">
+
+                            <div class="comment-user">
+                                <span class="user-name" style="font-weight: bold;">
+                                    Tulio Manrique
+                                </span>
+                                <span class="comment-time">1 week ago</span>
+                            </div>
+
+                            <div class="comment-text">
+                                I wanna go to Mexico with my beautiful wife and daughter
+                                <br />
+                                <br />
+                            </div>
+
+                            <div class="comment-options">
+
+                                <button class="btn cm-like-btn">
+
+                                    <i class="material-icons">thumb_up</i>
+                                    <span>56</span>
+                                </button>
+                                <button class="btn cm-dislike-btn">
+                                    <i class="material-icons">thumb_down</i>
+                                    <span>0</span>
+                                </button>
+                                <button class="btn cm-reply-btn">
+                                    <span>REPLY</span>
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="comment">
+
+                        <div class="user-avatar">
+                            <img class="style-scope yt-img-shadow" alt="Thomas Müller" height="40" width="40"
+                                src="https://yt3.ggpht.com/a/AGF-l7_jzIh1ZpiMYzQjnuCz0v0FuRO0fAdpGhMfvg=s48-c-k-c0xffffffff-no-rj-mo">
+                        </div>
+
+                        <div class="comment-info">
+
+                            <div class="comment-user">
+                                <span class="user-name" style="font-weight: bold;">
+                                    Tulio Loza
+                                </span>
+                                <span class="comment-time">4 days ago</span>
+                            </div>
+
+                            <div class="comment-text">
+                                Órale! Ámonos!!!!!
+                                <br />
+                                <br />
+                            </div>
+
+                            <div class="comment-options">
+
+                                <button class="btn cm-like-btn">
+
+                                    <i class="material-icons">thumb_up</i>
+                                    <span>278</span>
+                                </button>
+                                <button class="btn cm-dislike-btn">
+                                    <i class="material-icons">thumb_down</i>
+                                    <span>31</span>
+                                </button>
+                                <button class="btn cm-reply-btn">
+                                    <span>REPLY</span>
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </main>
+
+            <aside>
+
+                <section class="up-next">
+                    <div class="autoplay">
+                        <span>Up next</span>
+                        <span>AUTOPLAY</span>
+                        <button class="switch"></button>
+                    </div>
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=lNIEZ61PyG0" target="_blank"> </a>
+
+                        <div class="thumbnail-img">
+                            <img src="https://i.ytimg.com/vi/lNIEZ61PyG0/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDfk9Lv7p1jFfUNVhEtCBgtbwWipg"
+                                alt="recommendation video" />
+
+                            <div class="duration">
+                                <span>9:17</span>
+
+                            </div>
+                        </div>
+                        <div class="thumbnail-info">
+                            <h2 class="thumbnail-title">
+                                Machu Picchu, Peru in 4K Ultra HD
+                            </h2>
+                            <div class="thumbnail-channel-name">
+                                Amazing Places on Our Planet
+                                <img src="images/check-circle.svg" alt="verified" height="15" width="15" />
+                                <p class="thumbnail-video-info">1.1M views</p>
+                            </div>
+
+
+                        </div>
+                        <div class="thumbnail-overlay">
+                            <button class="btn">
+                                <img src="images/dots-vertical-thumb.svg" alt="thumbnail options" />
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="recommendations">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=T-3tAiRig7o" target="_blank"> </a>
+                        <div class="thumbnail-img">
+                            <img src="https://i.ytimg.com/vi/T-3tAiRig7o/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDfq1oEOhr5vC-HGcpZvGpt29H3jg"
+                                alt="recommendation video" />
+                            <div class="duration">
+                                <span>10:10</span>
+                            </div>
+
+                        </div>
+                        <div class="thumbnail-info">
+                            <h2 class="thumbnail-title">
+                                Choquequirao, The Cradle of Gold - HQ
+                            </h2>
+                            <div class="thumbnail-channel-name">
+                                Visit Peru
+                                <p class="thumbnail-video-info">567 views</p>
+                                <p class="thumbnail-video-info">Recommended for you</p>
+                            </div>
+
+                        </div>
+                        <div class="thumbnail-overlay">
+                            <button class="btn">
+                                <img src="images/dots-vertical-thumb.svg" alt="thumbnail options" />
+                            </button>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=zJkqGgvnSoc" target="_blank"> </a>
+                        <div class="thumbnail-img">
+                            <img src="https://i.ytimg.com/vi/tZozX-6offE/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB2otrtk32w7pgRmySlJ1zBhg4a3w
+                      " alt="recommendation video" />
+                            <div class="duration">
+                                <span>15:42</span>
+                            </div>
+
+                        </div>
+                        <div class="thumbnail-info">
+                            <h2 class="thumbnail-title">
+                                Un dia en Xcaret
+                            </h2>
+                            <div class="thumbnail-channel-name">
+                                alanxelmundo
+                                <p class="thumbnail-video-info">534k views</p>
+                            </div>
+
+
+                        </div>
+                        <div class="thumbnail-overlay">
+                            <button class="btn">
+                                <img src="images/dots-vertical-thumb.svg" alt="thumbnail options" />
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="thumbnail">
+                        <a href="https://youtu.be/qvFtpWpX13U
+                  " target="_blank"> </a>
+                        <div class="thumbnail-img">
+                            <img src="https://i.ytimg.com/vi/qvFtpWpX13U/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBjw8lJzfyq-1iNcyjP3qEUy8v7Kw
+                      " alt="recommendation video" />
+                            <div class="duration">
+                                <span>12:02</span>
+                            </div>
+                        </div>
+                        <div class="thumbnail-info">
+                            <h2 class="thumbnail-title">
+                                Bacalar, what to do in the 7 colors lagoon
+
+                            </h2>
+                            <div class="thumbnail-channel-name">
+                                Viajefest
+                                <img src="images/check-circle.svg" alt="verified" height="15" width="15" />
+
+                                <p class="thumbnail-video-info">657k views</p>
+                                <p class="thumbnail-video-info">Recommended for you</p>
+                            </div>
+
+
+                        </div>
+                        <div class="thumbnail-overlay">
+                            <button class="btn">
+                                <img src="images/dots-vertical-thumb.svg" alt="thumbnail options" />
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="thumbnail">
+                        <a href="https://youtu.be/voBH382LhQE
+                  " target="_blank"> </a>
+                        <div class="thumbnail-img">
+                            <img src="https://i.ytimg.com/vi/voBH382LhQE/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB8gpvts75gdvM0myupRMKZaGzzSQ
+                      " alt="recommendation video" />
+                            <div class="duration">
+                                <span>17:25</span>
+                            </div>
+                        </div>
+                        <div class="thumbnail-info">
+                            <h2 class="thumbnail-title">
+                                ENCHILADAS VERDES | Vicky Receta Facil
+
+                            </h2>
+                            <div class="thumbnail-channel-name">
+                                VICKY RECETA FACIL
+                                <p class="thumbnail-video-info">371,696 views</p>
+                                <p class="thumbnail-video-info">Recommended for you</p>
+                            </div>
+
+                        </div>
+                        <div class="thumbnail-overlay">
+                            <button class="btn">
+                                <img src="images/dots-vertical-thumb.svg" alt="thumbnail options" />
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="thumbnail">
+                        <a href="https://youtu.be/kiI1jEwQVFY" target="_blank"></a>
+
+                        <div class="thumbnail-img">
+                            <img src="https://i.ytimg.com/vi/kiI1jEwQVFY/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBAIXUgw-DcDHar5wvP_GbbixiiRA"
+                                alt="recommendation video" />
+
+                            <div class="duration">
+                                <span>2:49</span>
+
+                            </div>
+
+                        </div>
+                        <div class="thumbnail-info">
+                            <h2 class="thumbnail-title">
+                                Royal Decameron Punta Sal - Tumbes(Peru)
+                            </h2>
+
+
+                            <div class="thumbnail-channel-name">
+                                <p> Decameron All Inclusive Hotels and Resorts</p>
+                                <p class="thumbnail-video-info">266,282 views</p>
+                            </div>
+
+
+                        </div>
+                        <div class="thumbnail-overlay">
+                            <button class="btn">
+                                <img src="images/dots-vertical-thumb.svg" alt="thumbnail options" />
+                            </button>
+
+
+
+                        </div>
+                    </div>
+                    <hr class="horizontalLine horizontalCenter" />
+
+                    <span class="horizontalCenter showMoreStyle">SHOW MORE</span>
+                </section>
+            </aside>
+        </div>
+    </div>
+
+
+
+    <footer>
+
+        <div class="card cardPanelFooter">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12 flexibleDisplay">
+                        <img class="youtubeImageFooter"
+                            src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png"
+                            alt="youtube image">
+
+
+                        <button type="button" class="btn btn-default "><i
+                                class="fa fa-user"></i>&nbsp;<span>Language:</span>
+                            English &nbsp;<i class="fa fa-caret-down"></i></button>
+
+
+                        <button type="button" class="btn btn-default "><span>Location:</span> Netherlands</button>
+
+
+                        <button type="button" class="btn btn-default "><span>Restricted Mode:</span> Off</button>
+
+
+                        <button type="button" class="btn btn-default "><i class="fa fa-hourglass-end"></i>
+                            History</button>
+
+
+                        <button type="button" class="btn btn-default"><i class="fa fa-question-circle"></i>
+                            Help</button>
+
+
+                    </div>
+                    <hr class="horizontalLineFooter horizontalCenter" />
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12 linkWithoutStyle">
+                        <a href="">About</a>
+                        <a href="">Press</a>
+                        <a href="">Copyright</a>
+                        <a href="">Creators</a>
+                        <a href="">Advertise</a>
+                        <a href="">Developers</a>
+
+                    </div>
+
+                    <div class="col-md-12 linkWithSpecificStyle">
+
+                        <a href="">Terms</a>
+                        <a href="">Privacy</a>
+                        <a href="">Policy & Safety</a>
+                        <a href="">Test new features</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
