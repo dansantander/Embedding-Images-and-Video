@@ -10,16 +10,16 @@ This project consists of building an HTML document that matches the appearance o
 # Authors
 👤 Daniel Santander
 
-Github: @dansantander
-Twitter: @pordios_cero
-Linkedin: linkedin
+- Github: @dansantander
+- Twitter: @pordios_cero
+- Linkedin: linkedin
 
 
 👤 María de los Ángeles Hinojosa Pretell
 
-Github: @angelesh1995
-Twitter: @Maria_AngelesxD
-Linkedin: linkedin
+- Github: @angelesh1995
+- Twitter: @Maria_AngelesxD
+- Linkedin: linkedin
 
 # Contributing
 Contributions, issues and feature requests are welcome!
