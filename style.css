@@ -90,6 +90,17 @@ html {
   border: 1px solid #242424;
 }
 
+.first-button{
+  height:90%;
+  width:90%;
+}
+
+.user-options{
+display:grid;
+grid-template-columns: .5fr .5fr .5fr 1fr;
+justify-content: center;
+}
+
 .player {
   position: relative;
   padding-bottom: 56.25%;
@@ -171,7 +182,7 @@ html {
 }
 .channel-info {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 5% 2fr 1fr;
   border-bottom: 1px solid rgba(170, 170, 170, 0.2);
   padding-top: 1em;
 }
